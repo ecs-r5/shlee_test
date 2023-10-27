@@ -37,7 +37,7 @@ variable "disks" {
 variable "instance_count" {
   description = "Number of instances to create"
   type        = number
-  default     = 3 
+  default     = 2
 }
 
 variable "name_prefix" {
